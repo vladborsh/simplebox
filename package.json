@@ -1,0 +1,33 @@
+{
+  "name": "simplebox",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/dist/index.d.ts",
+  "scripts": {
+    "start": "webpack-dev-server --mode development"
+  },
+  "author": "Vlad Borsh <v.borsh.io@gmail.com>",
+  "license": "ISC",
+  "repository": {},
+  "devDependencies": {
+    "html-webpack-plugin": "^4.0.4",
+    "jasmine": "^3.1.0",
+    "karma": "^2.0.2",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-firefox-launcher": "^1.1.0",
+    "karma-jasmine": "^1.1.2",
+    "karma-phantomjs-launcher": "^1.0.4",
+    "karma-webpack": "^3.0.0",
+    "phantomjs-prebuilt": "^2.1.16",
+    "source-map-loader": "^0.2.3",
+    "ts-loader": "^4.3.0",
+    "ts-node": "^6.0.5",
+    "typescript": "2.7.2",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.1",
+    "webpack-dev-server": "^3.10.3",
+    "yargs": "^11.0.0"
+  },
+  "dependencies": {}
+}
