@@ -14,7 +14,7 @@ export class Renderer {
         this.renderLoop.start(50, () => {
             this.canvasController.context.clearRect(0, 0, this.canvasController.canvas.width, this.canvasController.canvas.height);
             this.objectStorage.renderStorage.forEach(object => object.render(this.canvasController.context));
-            this.objectStorage.worldStorage.forEach(object => object.update());
+            this.objectStorage.worldStorage.forEach(object => object.update(this.renderLoop.elapsed));
         });
     }
 }

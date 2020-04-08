@@ -1,3 +1,3 @@
 export interface UpdatableInterface {
-    update(): void
+    update(dt: number): void;
 }
